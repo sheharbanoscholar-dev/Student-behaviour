@@ -1,0 +1,25 @@
+# Large model weights (exceed GitHub 100MB limit)
+*.pt
+backend/*.pt
+
+# Large binaries
+*.mp4
+*.pkl
+*.db
+backend/classroom_api.db
+backend/students_gallery.pkl
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+backend/venv/
+.env
+.env.*
+*.egg-info/
+.eggs/
+
+# IDE / OS
+.DS_Store
+Thumbs.db
+*.log
