@@ -4,10 +4,8 @@ backend/*.pt
 
 # Large binaries
 *.mp4
-*.pkl
 *.db
 backend/classroom_api.db
-backend/students_gallery.pkl
 
 # Python
 __pycache__/
